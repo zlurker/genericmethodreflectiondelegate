@@ -79,7 +79,7 @@ namespace ReflectionTest
 
         public void Method2()
         {
-            //Console.WriteLine($"{testinput} Called 2!");
+            Console.WriteLine($"{testinput} Called 2!");
         }
     }
 
