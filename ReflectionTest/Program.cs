@@ -57,6 +57,10 @@ namespace ReflectionTest
         }
     }
 
+    public class unown3
+    {
+
+    }
 
     public class InheritedTest : Test
     {
