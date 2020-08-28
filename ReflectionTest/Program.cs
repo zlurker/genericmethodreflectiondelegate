@@ -36,6 +36,20 @@ namespace ReflectionTest
         }
     }
 
+    public class InheritedTestLayer4 : InheritedTest
+    {
+        public InheritedTestLayer4(string inp):base(inp)
+        {
+
+        }
+
+        [DynamicPath]
+        public void Destruction2()
+        {
+
+        }
+    }
+
 
     public class InheritedTest : Test
     {
