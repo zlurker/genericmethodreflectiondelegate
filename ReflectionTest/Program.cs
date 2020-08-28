@@ -36,6 +36,14 @@ namespace ReflectionTest
         }
     }
 
+    public class Unown
+    {
+        [DynamicPath]
+        public void LOL()
+        {
+
+        }
+    }
 
     public class InheritedTest : Test
     {
@@ -181,6 +189,7 @@ namespace ReflectionTest
             #endregion
 
             Console.WriteLine("Begin attribute parsing");
+            //DynamicPathManager manager = new DynamicPathManager();
             DynamicPathManager manager = new DynamicPathManager();
 
             Console.WriteLine($"End attribute parsing. Press key to run methods.");
