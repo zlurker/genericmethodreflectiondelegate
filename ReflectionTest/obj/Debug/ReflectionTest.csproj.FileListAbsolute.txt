@@ -1,0 +1,6 @@
+c:\users\gabriel_chia\documents\visual studio 2015\Projects\ReflectionTest\ReflectionTest\bin\Debug\ReflectionTest.exe.config
+c:\users\gabriel_chia\documents\visual studio 2015\Projects\ReflectionTest\ReflectionTest\bin\Debug\ReflectionTest.exe
+c:\users\gabriel_chia\documents\visual studio 2015\Projects\ReflectionTest\ReflectionTest\bin\Debug\ReflectionTest.pdb
+c:\users\gabriel_chia\documents\visual studio 2015\Projects\ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.csprojResolveAssemblyReference.cache
+c:\users\gabriel_chia\documents\visual studio 2015\Projects\ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.exe
+c:\users\gabriel_chia\documents\visual studio 2015\Projects\ReflectionTest\ReflectionTest\obj\Debug\ReflectionTest.pdb
