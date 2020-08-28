@@ -196,6 +196,7 @@ namespace ReflectionTest
 
             Console.WriteLine("Begin attribute parsing");
             DynamicPathManager manager = new DynamicPathManager();
+            Console.WriteLine($"Parsed {manager.dynamicPaths.Count} marked functions.");
 
             Console.WriteLine($"End attribute parsing. Press key to run methods.");
             Console.ReadKey();
