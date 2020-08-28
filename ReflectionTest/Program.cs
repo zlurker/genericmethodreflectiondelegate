@@ -36,6 +36,18 @@ namespace ReflectionTest
         }
     }
 
+    public class InheritedTestLayer4 : InheritedTest
+    {
+        public InheritedTestLayer4(string inp):base(inp)
+        {
+
+        }
+
+        [DynamicPath]
+        public void Destruction2(){
+        }
+     }
+        
     public class Unown
     {
         [DynamicPath]
@@ -44,6 +56,7 @@ namespace ReflectionTest
 
         }
     }
+
 
     public class InheritedTest : Test
     {
@@ -191,6 +204,7 @@ namespace ReflectionTest
             Console.WriteLine("Begin attribute parsing");
             //DynamicPathManager manager = new DynamicPathManager();
             DynamicPathManager manager = new DynamicPathManager();
+            Console.WriteLine($"Parsed {manager.dynamicPaths.Count} marked functions.");
 
             Console.WriteLine($"End attribute parsing. Press key to run methods.");
             Console.ReadKey();
