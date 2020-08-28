@@ -57,6 +57,12 @@ namespace ReflectionTest
         }
     }
 
+    public class Unown2
+    {
+        [DynamicPath]
+        public void Unown() { }
+    }
+
 
     public class InheritedTest : Test
     {
