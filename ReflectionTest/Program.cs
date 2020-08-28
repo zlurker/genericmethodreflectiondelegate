@@ -44,7 +44,14 @@ namespace ReflectionTest
         }
 
         [DynamicPath]
-        public void Destruction2()
+        public void Destruction2(){
+        }
+     }
+        
+    public class Unown
+    {
+        [DynamicPath]
+        public void LOL()
         {
 
         }
@@ -93,7 +100,7 @@ namespace ReflectionTest
 
         public void Method2()
         {
-            //Console.WriteLine($"{testinput} Called 2!");
+            Console.WriteLine($"{testinput} Called 2!");
         }
     }
 
@@ -195,6 +202,7 @@ namespace ReflectionTest
             #endregion
 
             Console.WriteLine("Begin attribute parsing");
+            //DynamicPathManager manager = new DynamicPathManager();
             DynamicPathManager manager = new DynamicPathManager();
             Console.WriteLine($"Parsed {manager.dynamicPaths.Count} marked functions.");
 
